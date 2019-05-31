@@ -36,6 +36,6 @@ $orderInfo = $handler->getOrderInfo($_GET['orderId'],ALFA_PAY_PROD);
 <pre>
 $exchange = new \Alfabank\ExchangeRates();
 if($exchange->loadExchangeRates()) {
-    $euroCoast = ($exchange->getExchangeRateByCharCode('EUR'))['VALUE'];
+    $euroCost = ($exchange->getExchangeRateByCharCode('EUR'))['VALUE'];
 }
 </pre>
